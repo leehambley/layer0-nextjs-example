@@ -1,0 +1,32 @@
+{
+  "scripts": {
+    "layer0:dev": "layer0 dev",
+    "layer0:build": "layer0 build",
+    "layer0:deploy": "layer0 deploy",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "format": "prettier '**/*' --write --ignore-unknown"
+  },
+  "name": "layer0-nextjs-example",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "next": "^12.1.4",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@layer0/cli": "^4.12.0",
+    "@layer0/core": "^4.12.0",
+    "@layer0/devtools": "^4.12.0",
+    "@layer0/next": "^4.12.0",
+    "@layer0/prefetch": "^4.12.0",
+    "@layer0/react": "^4.12.0",
+    "autoprefixer": "^10.3.6",
+    "node-fetch": "^2.6.1",
+    "postcss": "^8.3.8",
+    "prettier": "^2.4.1",
+    "tailwindcss": "^2.2.16"
+  }
+}
